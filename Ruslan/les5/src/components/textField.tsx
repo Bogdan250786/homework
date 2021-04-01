@@ -1,7 +1,8 @@
 const TextField = (props: {
   placeholder: string,
   onChange: React.ChangeEventHandler<HTMLInputElement>,
-  value: string
+  value: string,
+  type: string
 }) => 
   <input {...props} />;
 

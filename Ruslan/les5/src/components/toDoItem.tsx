@@ -1,12 +1,5 @@
-interface IProps {
-  item: {
-    label: string,
-    isDone: boolean,
-    id: number
-  },
-  onChange: Function,
-  onRemoveToDo: Function
-}
+import {IProps} from '../interfaces';
+
 
 const ToDoItem: React.FC<IProps> = ({item, onChange, onRemoveToDo}) => (
   <li className="todoItemContainer">
